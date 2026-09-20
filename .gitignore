@@ -1,0 +1,59 @@
+# Environment
+.env
+
+# Runtime data (gitignored — generated at runtime)
+data/pdfs/
+data/chroma/
+data/sessions/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Downloaded PDFs
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files and test outputs
+_*.txt
+_*.py
+api_*.txt
+api_*.py
+!api_server.py
+*.log
+tmp/
+
+# Test cache
+.pytest_cache/
+tmp/pytest/
+
+# UI (Next.js)
+The_ui/.next/
+The_ui/node_modules/
+The_ui/.env.local
+
+# Old/legacy code
+arxiv-agent/

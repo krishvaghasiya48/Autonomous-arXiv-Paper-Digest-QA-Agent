@@ -1,0 +1,43 @@
+# Orchestration
+langgraph>=0.2.0
+
+# State schema
+pydantic>=2.7.0
+
+# arXiv access
+arxiv>=2.1.0
+
+# HTTP & retries
+httpx>=0.27.0
+tenacity>=8.2.0
+
+# PDF parsing — primary
+PyMuPDF>=1.24.0
+
+# PDF parsing — fallback
+pdfplumber>=0.11.0
+
+# Embeddings (local, no API key)
+sentence-transformers>=3.0.0
+
+# Vector DB
+chromadb>=0.5.0
+
+# Sparse / hybrid retrieval
+rank-bm25>=0.2.2
+
+# LLM — primary (free tier)
+groq>=0.11.0
+
+# LLM — fallback (free tier)
+google-generativeai>=0.3.0
+
+# CLI
+typer>=0.12.0
+rich>=13.0.0
+
+# Config
+python-dotenv>=1.0.0
+
+# Tests
+pytest>=8.0.0
